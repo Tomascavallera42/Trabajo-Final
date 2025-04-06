@@ -1,0 +1,32 @@
+@import "../sass/variables/variables";
+@import "../sass/utilities/extends";
+@import "../sass/utilities/mixins";
+@import "../sass/layout/main";
+@import "../sass/layout/header";
+@import "../sass/layout/footer";
+@import "../sass/animacion/animacion";
+@import "../sass/mediaqueries/mq";
+
+a{
+   text-decoration: none;
+}
+body{
+  background-color: rgba(10, 32, 99, 0.241)
+  
+}
+
+*{
+  font-family: "Poppins", serif;
+  
+}
+.fondopag{
+background-color: rgb(7, 37, 37);
+  width: 100%; 
+  height: 100%;
+background-attachment: fixed;
+display: grid;
+grid-template-rows: auto 1fr auto;
+min-height: 100vh;
+padding: 0px;
+margin: 0px;
+}

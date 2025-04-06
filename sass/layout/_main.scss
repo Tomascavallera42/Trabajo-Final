@@ -1,0 +1,160 @@
+.felxconsejos{
+   @extend %flexcolumn;
+   @extend %flexcenter;
+   @extend %textoblanco;
+   @extend %redondo;
+   @extend %gradient;
+   @extend %boxshadow;
+     }
+   
+ .felxconsejos p{
+    width: 50%;
+ }
+ .cajaun{
+    width: 80%;
+ }
+ .contconsejos{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px; margin-left: 160px; margin-top: 50px;
+   
+ }
+ .cont div{
+    width: 30%; height: auto;
+ }
+ .contconsejos img{
+    width: 50%;
+ }
+ .conteinerboot{
+    margin: 25px auto; 
+    width: 700px; 
+    
+ }
+ .posicion {
+    margin: 0px; 
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    
+    
+ 
+ }
+ 
+ .menuinicio{
+    flex-direction: row;
+ }
+ .textofot{
+    margin: 10px;
+    padding: 10px;color: #f4f0f0;
+ }
+ .menuinicio img{
+    background-image: linear-gradient( to left, rgb(38, 98, 98), rgb(7, 37, 37)  );
+    padding: 15px;
+    margin: 70px;
+    border-radius: 50px;
+    box-shadow: 0px 0px 10px;
+    width: 70vh;
+    height: 70vh;
+ }
+ 
+ 
+ .logoprincynavbar .navbar a{
+    color:rgb(253, 253, 253) ;
+    font-weight: 600;
+ }
+ .imgtrab{
+    width: 50%;
+    
+    margin: 50px;
+ }
+ .logotip{
+    width: 250px;
+ }
+ .navbar{
+    list-style: none;
+    margin: 10px;
+    padding: 0;
+    display: flex;
+    gap: 15px
+ 
+ }
+ 
+ .colortitulo{ margin-top: 60px; width: 100%; color: aliceblue; background-image: linear-gradient( to left, rgb(38, 98, 98), rgb(7, 37, 37)  );  padding: 10px;
+     display: flex; justify-content: center;
+    
+ }
+ 
+ .sobrenos{
+   display: flex;
+   justify-content: center;
+    width: 200vh;
+    height: 50vh;
+    margin: 50px;
+ 
+    
+ }
+ 
+ .ancho70{
+    width: 70%;
+    margin: 50px
+ }
+ 
+ .parrafoclientes{
+    width: 80%; color: aliceblue; background-image: $colorprincipal;box-shadow: 0px 0px 10px; border: 5px solid black; padding: 40px;
+    margin: 20px; 
+ }
+  
+ .imagencontacto{
+    width: 7%;
+    height: 72px;
+    
+ }
+ .subtituloservicios{
+    width: 90%;
+ }
+ 
+ 
+ .servicios{
+    font-size: 20px;   color: rgb(251, 251, 251);  gap: 50px; margin-top: 40px; padding: 5px;  display: flex;
+ }
+ .servicios li {
+    font-size: 18px;
+    margin-bottom: 10px;
+ }
+ .centrar {
+    display: flex;
+    justify-content: center;  
+    align-items: center;      
+    position: relative;
+    top: -50px;               
+    margin-top: 20px;         
+ }
+ 
+    
+ .centrar.servicios button{
+    color: rgb(255, 255, 255);
+    background-image: linear-gradient( to left, rgb(38, 98, 98), rgb(7, 37, 37)  );
+ }
+ 
+ .indd{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+ }
+ .boton{
+    color: aliceblue; padding: 20px;
+ }
+ .sucursal{
+    display: flex; flex-direction: row; align-items: center; justify-content: center;
+    
+ }
+ .texsucur{
+    background-image: linear-gradient( to left, rgb(38, 98, 98), rgb(7, 37, 37)  );box-shadow: 0px 0px 10px; border: 5px solid black; height: 40px; color: rgb(255, 255, 255);
+  padding: 20px; display: flex; align-items: center;
+ }
+ .felxcont{
+   @include flexbox(column, center, center);
+ }
+ 

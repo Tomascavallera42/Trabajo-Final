@@ -1,0 +1,35 @@
+%textoblanco{
+    color: aliceblue;
+  }
+  %boxshadow {
+    box-shadow: 0px 0px 10px;
+  }
+  %border-strong {
+    border: 5px solid black;
+  }
+  %textopequenio {
+    font-size: 12px;
+  }
+  
+  %gradient {
+    background-image: linear-gradient(to left, rgb(38, 98, 98), rgb(7, 37, 37));
+  }
+  %footerbase {
+    padding: 5px 0;
+    text-align: left;
+    width: 100%;
+    box-sizing: border-box;
+    @extend %gradient;
+  }
+  %flexcolumn {
+    display: flex;
+    flex-direction: column;
+  }
+  %flexcenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  %redondo {
+    border-radius: 20px;
+  }

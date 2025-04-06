@@ -1,0 +1,174 @@
+
+@media (max-width: 800px) {
+   
+   .logoprincynavbar {
+       flex-direction: row;
+       
+       width: 100%;
+   }
+   
+   .nav ul {
+       flex-direction: column;
+       gap: 10px;
+       align-items: center;
+   }
+
+   .nav a {
+       font-size: 14px;
+       padding: 5px 0;
+   }
+
+   .imagencontacto {
+       max-width: 50%;
+     
+
+   }
+   .menuinicio img.alturaimg {
+       width: 80%;
+       height: auto;
+   }
+   .logotip {
+       width: 150px;
+       height: auto;
+   }
+   .menuinicio .colortitulo{
+       width: 40%;
+      font-size: 20px;
+   }
+   .menuinicio{
+       display: flex; flex-direction: column;
+   }
+.indd{
+   flex-direction: column; justify-content: center;  width: 100%;
+}
+
+.anim{
+  display: flex; justify-content: center; align-items: center;
+}
+   .colortitulo {
+       font-size: 20px;
+       width: 100%; align-items: center; justify-content: center; display: flex;}
+   
+   footer {
+       padding: 1px 0; 
+   }
+
+   footer .subtitulofooter {
+       font-size: 10px; 
+       margin-bottom: 3px; 
+   }
+   .parrafoclientes {
+       font-size: 1rem;
+       padding: 0 10px;
+   }
+   footer a {
+       font-size: 9px; 
+       margin: 0 2px; 
+   }
+   .anim{
+       margin: 0 auto;
+   }
+ 
+.clie{
+   display: flex;
+   flex-direction: column;
+   width: 50%;
+   margin: 20px;
+   padding: 0px;
+
+} 
+.clie img{ margin: 0 auto;
+   width: 170%;
+
+}
+.clie p{ width: 170%; color: aliceblue; background-color: rgba(10, 32, 99, 0.329);box-shadow: 0px 0px 10px; border-radius: 20px; padding: 20px;
+   margin: 0 auto;
+}
+.conteinerboot{
+   width: 50%;
+  margin-top: 40px;
+   
+}
+
+
+
+.subtituloservicios{
+   margin: 0px; width: 90%; color: aliceblue; background-color: rgba(10, 32, 99, 0.329);box-shadow: 0px 0px 10px; border-radius: 20px; padding: 40px;
+   margin: 20px;
+}
+
+
+.servicios{
+   margin: 20px;  
+} 
+.servicios li{
+   font-size: 15px;
+}
+
+
+.sobrenos{
+   width: 70% ; height: auto;
+}
+.indd img{
+   background-color: rgba(2, 2, 48, 0.189);
+   padding: 15px;
+   margin: 20px;
+   border-radius: 50px;
+   box-shadow: 0px 0px 10px;
+   width: 40%;
+   height: 40%;
+   margin-left: 40px;
+   
+
+
+
+
+} 
+.menuinicio .ancho70{
+   width: 150%; height: 90%;display: flex; align-items: center; justify-content: center; margin-left: 20%; margin-bottom: 20%;
+}
+.parrafoclientes{
+   display: flex; align-items: center; justify-content: center; margin-left: 20%;
+}
+.navbar-toggler{
+   color: aliceblue;
+}   
+.parrafoclientes .parraf{ border-radius: 0px;
+
+}    
+.sucursal{
+    flex-direction: column; 
+   
+}
+
+
+
+
+
+.contconsejos{
+   display: flex; flex-direction: column; margin-left: 20%; margin-bottom: 20%;
+}
+}
+
+
+@media(max-width:1428.44px){
+   .clie{
+      flex-direction: column;
+   }
+   .indd{
+      width: 100%;
+      flex-direction: column; 
+   }
+   .indd img{
+      width: 70%; 
+   }
+   .sobrenos{
+      width: 80%;
+   }
+   .sobrenos .parrafoclientes {width: 70%; height: fit-content} 
+   .sucursal{
+      flex-direction: column; height: 50%; margin-top: 300px;
+   } 
+    }
+ 
+ 

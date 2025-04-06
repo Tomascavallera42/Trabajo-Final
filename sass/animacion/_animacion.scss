@@ -1,0 +1,17 @@
+.indd{
+    position: relative;
+    overflow: hidden;
+ }
+ .anim{
+ transition: 2s;
+ }
+ .anim:hover{
+    transform: scale(1.1);
+ }    
+ .centrar.servicios button{
+ transition: 1s; width: 40%;
+ }
+ .centrar.servicios button:hover{
+    transform: scale(1.1);
+ }
+ 

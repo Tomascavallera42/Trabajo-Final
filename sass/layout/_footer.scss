@@ -1,0 +1,32 @@
+.subtitulofooter{
+    color: rgb(255, 255, 255);
+  
+ }
+ 
+ 
+ 
+ footer {
+   @extend %footerbase ;
+ }
+ 
+ footer .subtitulofooter {
+   @extend %textoblanco;
+   @extend %textopequenio; }
+ 
+ footer .icono {
+    display: flex;
+    justify-content: left;
+    gap: 10px; 
+ }
+ footer .icono {
+   .icono {     
+    width: 24px;
+    height: auto;
+    transition: transform 0.3s ease; }
+ }
+ 
+ footer .icono:hover {
+    transform: scale(1.2); 
+ }
+ 
+ 
